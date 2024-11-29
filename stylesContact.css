@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%;
+    height: 100%; */
+  }
+  body{
+    background-color: rgba(233, 150, 122, 0.747);
+  }
+  .box{
+    width: 100px;
+    height: 50px;
+    /* border: red dashed; */
+  }
+header{
+    font-family: sans-serif;
+    font-size: larger;
+    width: 100%;
+    height: 140px;
+    border: solid 2px;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-image: url(random-header2.jpg);
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+    box-sizing: border-box;/* Ensures padding and borders are part of the width */ 
+  }
+  
+  .topnav a:hover {
+    background-color: #dddddda4;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: indianred;
+    color: white;
+    float: left;
+  }
+  .contact-form-container {
+    background-color:bisque;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    /* max-width: 2000px; */
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.contact-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #007bff;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

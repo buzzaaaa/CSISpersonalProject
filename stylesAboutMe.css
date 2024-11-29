@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%;
+    height: 100%; */
+  }
+  body{
+    background-color: rgba(233, 150, 122, 0.747);
+  }
+  .box{
+    width: 100px;
+    height: 50px;
+    /* border: red dashed; */
+  }
+header{
+    font-family: sans-serif;
+    font-size: larger;
+    width: 100%;
+    height: 140px;
+    border: solid 2px;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-image: url(random-header2.jpg);
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+    box-sizing: border-box;/* Ensures padding and borders are part of the width */ 
+  }
+  
+  .topnav a:hover {
+    background-color: #dddddda4;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: indianred;
+    color: white;
+    float: left;
+  }
+  .about-me-container {
+    background-color:bisque;
+    padding: 40px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    /* max-width: 600px; */
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #007bff;
+}
+
+.interests-section, .fun-fact-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
